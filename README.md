@@ -66,7 +66,7 @@ co.matrix <- freq.words %*% t(freq.words)
 dist.co.matrix <- dist(t(co.matrix), method = "euclidean")
 fit <- hclust(dist.co.matrix)
 plot(fit, main = "문재인 대통령 연설문 분석", cex.main = 2, lwd = 1, lty = 1, hang = -1,
-     cex = 1.1, col = "#333333", col.main = "#363636", col.lab = "#363636", col.axis = "#AA0002")
+     cex = 1.1, col = "#333333", col.main = "#363636", col.lab = "#363636", col.axis = "#AA0002")</code></pre>
      
 - 결과물 예시:
 <p><img src="https://github.com/draxcel/korean_president_speech/blob/master/%EA%B2%B0%EA%B3%BC%EB%AC%BC.png?raw=true" alt="최종 결과물" width="650" height="550"></p>
