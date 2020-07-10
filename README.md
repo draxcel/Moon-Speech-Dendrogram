@@ -1,4 +1,4 @@
-# 🤵 문재인 대통령 연설에 대한 Dendrogram 
+# 문재인 대통령 연설에 대한 Dendrogram 
 
 - 목표: 5개 대통령 연설에 대해 Dendrogram 만들기
 
